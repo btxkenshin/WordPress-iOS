@@ -179,10 +179,9 @@ DEPENDENCIES:
   - ZendeskSDK (= 2.2.0)
 
 SPEC REPOS:
-  https://github.com/jtreanor/cocoapods-specs-mirror.git:
+  https://github.com/cocoapods/specs.git:
     - 1PasswordExtension
     - AFNetworking
-    - Alamofire
     - BuddyBuildSDK
     - CocoaLumberjack
     - Crashlytics
@@ -192,7 +191,6 @@ SPEC REPOS:
     - GiphyCoreSDK
     - GoogleSignInRepacked
     - GoogleToolboxForMac
-    - Gridicons
     - HockeySDK
     - lottie-ios
     - MGSwipeTableCell
@@ -202,7 +200,6 @@ SPEC REPOS:
     - "NSURL+IDN"
     - OCMock
     - OHHTTPStubs
-    - Reachability
     - Starscream
     - SVProgressHUD
     - UIDeviceIdentifier
@@ -211,10 +208,16 @@ SPEC REPOS:
     - WordPressAuthenticator
     - WordPressKit
     - WordPressShared
-    - WordPressUI
     - WPMediaPicker
-    - wpxmlrpc
     - ZendeskSDK
+  https://github.com/jtreanor/cocoapods-specs-mirror.git:
+    - Alamofire
+    - CocoaLumberjack
+    - GoogleToolboxForMac
+    - Gridicons
+    - Reachability
+    - WordPressUI
+    - wpxmlrpc
 
 EXTERNAL SOURCES:
   Automattic-Tracks-iOS:
@@ -264,6 +267,6 @@ SPEC CHECKSUMS:
   wpxmlrpc: bfc572f62ce7ee897f6f38b098d2ba08732ecef4
   ZendeskSDK: 44ee00338dd718495f0364369420ae11b389c878
 
-PODFILE CHECKSUM: adf1cf5446c47b23b6135920949343bccdcff781
+PODFILE CHECKSUM: 0d57566bb30ac6fa5c537eff9fbce4f0c1bc16f0
 
 COCOAPODS: 1.5.3

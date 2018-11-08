@@ -1,6 +1,7 @@
-# source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/jtreanor/cocoapods-specs-mirror.git'
 
+install! 'cocoapods', warn_for_multiple_pod_sources: false
 inhibit_all_warnings!
 use_frameworks!
 
