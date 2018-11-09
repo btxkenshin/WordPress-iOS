@@ -29,6 +29,9 @@ PODS:
     - CocoaLumberjack/Default
   - Crashlytics (3.10.8):
     - Fabric (~> 1.7.12)
+  - DOT (0.0.64):
+    - DOT/CouchbaseLite (= 0.0.64)
+  - DOT/CouchbaseLite (0.0.64)
   - Fabric (1.7.13)
   - FormatterKit/Resources (1.8.2)
   - FormatterKit/TimeIntervalFormatter (1.8.2):
@@ -151,6 +154,7 @@ DEPENDENCIES:
   - BuddyBuildSDK (= 1.0.17)
   - CocoaLumberjack (= 3.4.2)
   - Crashlytics (= 3.10.8)
+  - DOT (= 0.0.64)
   - FormatterKit/TimeIntervalFormatter (= 1.8.2)
   - Gifu (= 3.2.0)
   - GiphyCoreSDK (~> 1.4.0)
@@ -179,13 +183,14 @@ DEPENDENCIES:
   - ZendeskSDK (= 2.2.0)
 
 SPEC REPOS:
-  https://github.com/jtreanor/cocoapods-specs-mirror.git:
+  https://github.com/cocoapods/specs.git:
     - 1PasswordExtension
     - AFNetworking
     - Alamofire
     - BuddyBuildSDK
     - CocoaLumberjack
     - Crashlytics
+    - DOT
     - Fabric
     - FormatterKit
     - Gifu
@@ -234,6 +239,7 @@ SPEC CHECKSUMS:
   BuddyBuildSDK: 8ae12ee721098b356a961ea7dce70ae55f93a7d2
   CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
   Crashlytics: 058dc1ba579f6c100bc60a6878703779bff383c4
+  DOT: 033f07984858e3d8ee60a076e9e160f06a321a2b
   Fabric: 25d0963b691fc97be566392243ff0ecef5a68338
   FormatterKit: 4b8f29acc9b872d5d12a63efb560661e8f2e1b98
   Gifu: 7bcb6427457d85e0b4dff5a84ec5947ac19a93ea
@@ -264,6 +270,6 @@ SPEC CHECKSUMS:
   wpxmlrpc: bfc572f62ce7ee897f6f38b098d2ba08732ecef4
   ZendeskSDK: 44ee00338dd718495f0364369420ae11b389c878
 
-PODFILE CHECKSUM: 3a20074d7f9fec47cd892b08ab1b25a451e42bf2
+PODFILE CHECKSUM: ba0ef73bbd8a2951ba1686a51a11b99c400f43d0
 
 COCOAPODS: 1.5.3

@@ -1,4 +1,4 @@
-source 'https://github.com/jtreanor/cocoapods-specs-mirror.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 inhibit_all_warnings!
 use_frameworks!
@@ -101,6 +101,9 @@ target 'WordPress' do
     pod 'lottie-ios', '2.5.0'
     pod 'Starscream', '3.0.6'
     pod 'ZendeskSDK', '2.2.0'
+
+    # Tests specs update
+    pod 'DOT', '0.0.64'
 
 
     ## Automattic libraries
