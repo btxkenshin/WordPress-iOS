@@ -4,7 +4,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 inhibit_all_warnings!
 use_frameworks!
 
-plugin 'cocoapods-repo-update'
+# plugin 'cocoapods-repo-update'
 
 platform :ios, '10.0'
 workspace 'WordPress.xcworkspace'
