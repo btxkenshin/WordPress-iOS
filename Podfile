@@ -1,7 +1,10 @@
 source 'https://github.com/CocoaPods/Specs.git'
+# source 'https://github.com/jtreanor/cocoapods-specs-mirror.git'
 
 inhibit_all_warnings!
 use_frameworks!
+
+plugin 'cocoapods-repo-update'
 
 platform :ios, '10.0'
 workspace 'WordPress.xcworkspace'
@@ -103,7 +106,7 @@ target 'WordPress' do
     pod 'ZendeskSDK', '2.2.0'
 
     # Tests specs update
-    pod 'DOT', '0.0.64'
+    pod 'mobile-ffmpeg-full-gpl', '2.2'
 
 
     ## Automattic libraries

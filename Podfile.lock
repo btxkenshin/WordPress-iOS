@@ -29,9 +29,6 @@ PODS:
     - CocoaLumberjack/Default
   - Crashlytics (3.10.8):
     - Fabric (~> 1.7.12)
-  - DOT (0.0.64):
-    - DOT/CouchbaseLite (= 0.0.64)
-  - DOT/CouchbaseLite (0.0.64)
   - Fabric (1.7.13)
   - FormatterKit/Resources (1.8.2)
   - FormatterKit/TimeIntervalFormatter (1.8.2):
@@ -55,6 +52,7 @@ PODS:
   - HockeySDK/DefaultLib (5.1.4)
   - lottie-ios (2.5.0)
   - MGSwipeTableCell (1.6.7)
+  - mobile-ffmpeg-full-gpl (2.2)
   - MRProgress (0.8.3):
     - MRProgress/ActivityIndicator (= 0.8.3)
     - MRProgress/Blur (= 0.8.3)
@@ -154,7 +152,6 @@ DEPENDENCIES:
   - BuddyBuildSDK (= 1.0.17)
   - CocoaLumberjack (= 3.4.2)
   - Crashlytics (= 3.10.8)
-  - DOT (= 0.0.64)
   - FormatterKit/TimeIntervalFormatter (= 1.8.2)
   - Gifu (= 3.2.0)
   - GiphyCoreSDK (~> 1.4.0)
@@ -162,6 +159,7 @@ DEPENDENCIES:
   - HockeySDK (= 5.1.4)
   - lottie-ios (= 2.5.0)
   - MGSwipeTableCell (= 1.6.7)
+  - mobile-ffmpeg-full-gpl (= 2.2)
   - MRProgress (= 0.8.3)
   - Nimble (~> 7.1.1)
   - NSObject-SafeExpectations (= 0.0.3)
@@ -190,7 +188,6 @@ SPEC REPOS:
     - BuddyBuildSDK
     - CocoaLumberjack
     - Crashlytics
-    - DOT
     - Fabric
     - FormatterKit
     - Gifu
@@ -201,6 +198,7 @@ SPEC REPOS:
     - HockeySDK
     - lottie-ios
     - MGSwipeTableCell
+    - mobile-ffmpeg-full-gpl
     - MRProgress
     - Nimble
     - NSObject-SafeExpectations
@@ -239,7 +237,6 @@ SPEC CHECKSUMS:
   BuddyBuildSDK: 8ae12ee721098b356a961ea7dce70ae55f93a7d2
   CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
   Crashlytics: 058dc1ba579f6c100bc60a6878703779bff383c4
-  DOT: 033f07984858e3d8ee60a076e9e160f06a321a2b
   Fabric: 25d0963b691fc97be566392243ff0ecef5a68338
   FormatterKit: 4b8f29acc9b872d5d12a63efb560661e8f2e1b98
   Gifu: 7bcb6427457d85e0b4dff5a84ec5947ac19a93ea
@@ -250,6 +247,7 @@ SPEC CHECKSUMS:
   HockeySDK: 15afe6bc0a5bfe3a531fd73dbf082095f37dac3b
   lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
   MGSwipeTableCell: fb20e983988bde2b8d0df29c2d9e1d8ffd10b74a
+  mobile-ffmpeg-full-gpl: 9c27bc5ae2ee39e91f135f450e2d8ca4953fae69
   MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
   Nimble: 2839b01d1b31f6a6a7777a221f0d91cf52e8e27b
   NSObject-SafeExpectations: b989b68a8a9b7b9f2b264a8b52ba9d7aab8f3129
@@ -270,6 +268,6 @@ SPEC CHECKSUMS:
   wpxmlrpc: bfc572f62ce7ee897f6f38b098d2ba08732ecef4
   ZendeskSDK: 44ee00338dd718495f0364369420ae11b389c878
 
-PODFILE CHECKSUM: ba0ef73bbd8a2951ba1686a51a11b99c400f43d0
+PODFILE CHECKSUM: f0ed3c26dafcb73f38cc1f988641be1e0a7433eb
 
 COCOAPODS: 1.5.3
